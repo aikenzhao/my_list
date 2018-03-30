@@ -1,6 +1,6 @@
 /**********************************************************
  * Author        : Aiken.zhao
- * Email         : Aiken.zhao@goertek.com
+ * Email         : 
  * Last modified : 2018-03-30 16:36
  * Filename      : my_list.cpp
  * Description   : 
