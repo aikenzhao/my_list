@@ -1,6 +1,6 @@
 #/**********************************************************
 # * Author        : Aiken.zhao
-# * Email         : Aiken.zhao@goertek.com
+# * Email         : 
 # * Last modified : 2018-03-06 09:12
 # * Filename      : Makefile
 # * Description   : 
