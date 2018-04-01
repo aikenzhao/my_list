@@ -29,6 +29,11 @@ private:
 
     pthread_mutex_t *pth_lock;
 
+protected:    
+    MyList();
+    MyList(pthread_mutex_t *p_clock);
+    ~MyList();
+
 public:
     //获取初始化list
     static MyList *get_list(pthread_mutex_t *p_lock);
@@ -59,11 +64,6 @@ private:
     void delete_first();
     void add_last(DataElement *ele);
     DataElement *creat_element();
-    
-    MyList();
-    MyList(pthread_mutex_t *p_clock);
-    ~MyList();
-
     //print_list();
 };
 
